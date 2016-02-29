@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shon.boosttask8_navigation.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_unauthorised_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue_grey_700"
+        android:gravity="center"
+        android:visibility="visible"
+        tools:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/title_text"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/iv_google_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:contentDescription="@string/desc_google_icon" />
+
+        <TextView
+            android:id="@+id/tv_google_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/iv_google_icon"
+            android:gravity="center"
+            android:text="@string/google_icon"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:src="@drawable/google_logo"/>
+
+
+        <ImageView
+            android:id="@+id/iv_firebase_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/iv_google_icon"
+            android:layout_marginLeft="32dp"
+            android:contentDescription="@string/desc_firebase_icon"
+            android:src="@drawable/firebase_logo" />
+
+        <TextView
+            android:id="@+id/tv_firebase_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_google_icon"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/iv_firebase_icon"
+            android:gravity="center"
+            android:text="@string/firebase_icon"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_firebase_icon"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center_horizontal"
+            android:text="@string/signed_out"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_status"
+            android:fadeScrollbars="true"
+            android:gravity="center"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            android:text="@string/desc_unreg_user"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/detail"
+            android:layout_marginTop="80dp"
+            android:background="@color/blue_grey_900"
+            android:gravity="center">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                tools:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

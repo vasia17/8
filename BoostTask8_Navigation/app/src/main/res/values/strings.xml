@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BoostTask8_Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading…</string>
+    <string name="authorization">Authorization</string>
+    <string name="frag_data_tag">frag_data_tag</string>
+
+    <string name="title_text">Accelerometer App\nusing</string>
+    <string name="google_icon">Google Sign-In</string>
+    <string name="firebase_icon">FireBase</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="desc_firebase_icon">FireBase Logo</string>
+    <string name="desc_unreg_user">If You are signed out\n
+        you can only see an authenticated users data\nbut not save Your own!</string>
+
+    <string name="local_service_label">Acc Service</string>
+    <string name="local_service_started">Acc Service Started</string>
+    <string name="local_service_stopped">Acc Service Stopped</string>
+    <string name="local_service_connected">Acc service connected</string>
+    <string name="local_service_disconnected">Acc service disconnected</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_out">Signed out</string>
+</resources>

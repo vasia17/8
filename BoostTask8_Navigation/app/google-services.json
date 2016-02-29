@@ -1,0 +1,207 @@
+{
+  "project_info": {
+    "project_id": "default-demo-app-691aa",
+    "project_number": "468770817989",
+    "name": "Default Demo App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468770817989:android:1f257ce6a965ef59",
+        "client_id": "android:com.example.shon.boost4",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.shon.boost4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468770817989-j5onpf8vr4thkshumkj47c00intp4hem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shon.boost4",
+            "certificate_hash": "BCA173BD1B911056732312BA9A36E6696FFF4147"
+          }
+        },
+        {
+          "client_id": "468770817989-13kfsob8a05337s8uea080labkbisp5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468770817989:android:27d689d63f1b7a06",
+        "client_id": "android:com.google.samples.quickstart.signin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468770817989-13kfsob8a05337s8uea080labkbisp5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468770817989:android:5cfccfcf7fd2510f",
+        "client_id": "android:com.artsam.aos",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.artsam.aos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468770817989-13kfsob8a05337s8uea080labkbisp5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468770817989:android:38af8e8f42ef621a",
+        "client_id": "android:com.example.vasia.mytask8",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.vasia.mytask8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468770817989-lnjl9bg3ftlqjfsgafrljsikracdd2vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vasia.mytask8",
+            "certificate_hash": "BCA173BD1B911056732312BA9A36E6696FFF4147"
+          }
+        },
+        {
+          "client_id": "468770817989-13kfsob8a05337s8uea080labkbisp5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468770817989:android:422fc57335ee48dc",
+        "client_id": "android:com.example.shon.boosttask8_navigation",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.shon.boosttask8_navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468770817989-13kfsob8a05337s8uea080labkbisp5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
